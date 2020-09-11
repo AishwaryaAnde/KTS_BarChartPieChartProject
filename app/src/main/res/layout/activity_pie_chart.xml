@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PieChart_Activity">
+
+    <TableLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:background="@drawable/view_border_bg"
+        android:padding="3dp">
+
+        <TableRow
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/material_gray_700">
+
+            <TextView
+                style="@style/tv_style_table_head"
+                android:layout_column="1"
+                android:text="@string/expenses" />
+
+            <TextView
+                style="@style/tv_style_table_head"
+                android:layout_column="2"
+                android:text="@string/amount" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/tv_style_table_normal"
+                android:layout_column="1"
+                android:text="@string/rent" />
+
+            <TextView
+                android:id="@+id/rent"
+                style="@style/tv_style_table_normal"
+                android:layout_column="2"
+                tools:text="7000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/tv_style_table_normal"
+                android:layout_column="1"
+                android:text="@string/grocery" />
+
+            <TextView
+                android:id="@+id/grocery"
+                style="@style/tv_style_table_normal"
+                android:layout_column="2"
+                tools:text="7000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/tv_style_table_normal"
+                android:layout_column="1"
+                android:text="@string/transport" />
+
+            <TextView
+                android:id="@+id/transport"
+                style="@style/tv_style_table_normal"
+                android:layout_column="2"
+                tools:text="7000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/tv_style_table_normal"
+                android:layout_column="1"
+                android:text="@string/current" />
+
+            <TextView
+                android:id="@+id/current"
+                style="@style/tv_style_table_normal"
+                android:layout_column="2"
+                tools:text="7000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/tv_style_table_normal"
+                android:layout_column="1"
+                android:text="@string/school_fee" />
+
+            <TextView
+                android:id="@+id/fee"
+                style="@style/tv_style_table_normal"
+                android:layout_column="2"
+                tools:text="7000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/tv_style_table_normal"
+                android:layout_column="1"
+                android:text="@string/savings" />
+
+            <TextView
+                android:id="@+id/savings"
+                style="@style/tv_style_table_normal"
+                android:layout_column="2"
+                tools:text="7000" />
+        </TableRow>
+    </TableLayout>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:minWidth="400dp"
+        android:minHeight="400dp"
+        android:padding="10dp" />
+
+
+
+</LinearLayout>

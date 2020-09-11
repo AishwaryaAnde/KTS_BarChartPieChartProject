@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KTS-Assignment</string>
+    <string name="expenses">Expenses</string>
+    <string name="amount">Amount</string>
+    <string name="rent">Rent</string>
+    <string name="grocery">Grocery</string>
+    <string name="transport">Transport</string>
+    <string name="current">Current</string>
+    <string name="school_fee">School fee</string>
+    <string name="savings">Savings</string>
+    <string name="show_pie_chart">show pie chart</string>
+    <string name="show_bar_chart">show bar chart</string>
+    <string name="pop_across_india">Population in different states of India</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="states">States</string>
+    <string name="population_in_crores">Population (in crores)</string>
+    <string name="population">Population</string>
+</resources>
